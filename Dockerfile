@@ -1,5 +1,9 @@
-#FROM ubuntu:bionic
-FROM ubuntu:18.04
+#FROM ubuntu:focal
+FROM ubuntu:focal
+
+#ENV DEBIAN_FRONTEND noninteractive
+ENV DEBIAN_FRONTEND noninteractive
+
 
 
 MAINTAINER Victor Huezo <huezohuezo.1990@gmail.com>
