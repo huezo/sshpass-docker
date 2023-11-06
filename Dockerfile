@@ -1,5 +1,5 @@
-#FROM ubuntu:focal
-FROM ubuntu:focal
+#FROM ubuntu:latest
+FROM ubuntu:latest
 
 #ENV DEBIAN_FRONTEND noninteractive
 ENV DEBIAN_FRONTEND noninteractive
